@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 22, 2021, 6:54:40 PM
+    Author     : Sujeet Kumar
+*/
+body{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-simple-blue-white-ink-image_21837.jpg");
+       background-size: cover;
+       backface-visibility: hidden;
+}
+button{
+    float: right;
+}
+
+nav{
+    list-style-type: none;
+    margin:2px 0px 0px 0px;
+    padding:2px;
+}
+li a{ display: block;
+    padding: 0px 10px;
+    float: right;
+}
+ul{
+    display: block;
+    list-style: none;
+}
+.logotop{
+      padding: 2px 2px;
+      float: left;
+      height: 20px;
+  }
+.logo{
+      padding: 2px 2px;
+      float: right;
+      height: 20px;
+}
+  .web{ 
+       float: left;
+       border-collapse: collapse;
+       font-size: 21px;
+       text-align: left;
+       font-stretch: normal;
+       
+  }
+  #linked li{
+    float:  left; 
+  }
+  .bottom{
+      font-size: 16px;
+  }
+  img.header{
+      border-radius: 50px
+          ;
+  } 
+  @media(min-width:320px)
+{
+.container {width: 320px;}
+}
+@media(min-width:480px)
+{
+.container {width: 480px;}
+}
+@media(min-width:700px)
+{
+.container {width: 700px;}
+}
+@media(min-width:970px)
+{
+.container {width: 970px;}
+}
+@media(min-width:1020px)
+{
+.container {width: 1020px;}
+}
+.bot{
+    float: left;
+}
+table{ 
+       border-collapse: collapse;
+       font-size: 26px;
+       text-align: left;
+       font-stretch: normal;
+}
